@@ -1,0 +1,364 @@
+ .header .wrapper
+{
+	width:100%;
+    margin:auto;
+}
+.banner .wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.website.wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.content.wrapper
+{
+	width:100%;
+    margin:auto;
+}
+
+.sheet .wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.admin .wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.image .wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.faq .wrapper
+{
+	width:80%;
+    margin:auto;
+}
+.contact .wrapper
+{
+	width:100%;
+    margin:auto;
+}
+.header 
+{
+	width:100%;
+	background-color:yellow;
+	height:100px;
+}
+.header .header-fc 
+{
+	display:flex;
+	justify-content:space-evenly;
+}
+.header .header-fc .topic
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:#03a9f4;
+}
+.header .header-fc .navi
+{
+	text-align:center;
+	height:100px;
+	width:50%;
+	background-color:yellow;
+}
+.banner 
+{
+	text-align:center;
+	height:500px;
+	width:100%;
+	background-color:#cddc39;
+}
+.banner .banner-fc 
+{
+	display:flex;
+	justify-content:space-between;
+}
+.banner .banner-fc .about
+{
+	text-align:center;
+	height:500px;
+	width:50%;
+	background-color:#ff5722;
+}
+.banner .banner-fc .box
+{
+	text-align:center;
+	margin-left:100px;
+	margin-top:280px;
+	width:40%;
+	height:30px;
+	background-color:yellow;
+}
+.banner .banner-fc .image
+{
+	text-align:center;
+	height:500px;
+	width:50%;
+	background-color:#657e15;
+}
+.website
+{
+	width:100%;
+	height:500px;
+}
+.website .website-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+	
+.website .website-fc .search
+{
+	text-align:center;
+	height:500px;
+	width:50%;
+	background-color:#657e15;
+}
+.website .website-fc .maps
+{
+	text-align:center;
+	height:500px;
+	width:50%;
+	background-color:crimson;
+}
+.content
+{
+	width:100%;
+	height:600px;
+	background-color:plum;
+}
+.content .content-fc
+{
+	display:flex;
+	justify-content:space-around;
+}
+.content .content-fc .boxa
+{
+	margin-top:160px;
+	text-align:center;
+	height:300px;
+	width:30%;
+	background-color:green;
+}
+.content .content-fc .boxb
+{
+	margin-top:160px;
+	text-align:center;
+	height:300px;
+	width:30%;
+	background-color:#ff5722;
+}
+.content .content-fc .boxc
+{
+	margin-top:160px;
+	text-align:center;
+	height:300px;
+	width:30%;
+	background-color:green;
+}
+.sheet
+{
+	background-color:yellow;
+	width:100%;
+	height:700px;
+}
+.sheet .sheet-fc
+{
+	display:flex;
+	justify-content:space-between;
+}
+.sheet .sheet-fc .boxa
+{
+	text-align:center;
+	background-color:#657e15;
+	height:700px;
+	width:50%;
+}
+.sheet .sheet-fc .boxb
+{
+	text-align:center;
+	background-color:#e91863;
+	height:700px;
+	width:50%;
+}
+.world
+{
+	text-align:center;
+	background-color:green;
+	width:100%;
+	height:500px;
+}
+.admin
+{
+	text-align:center;
+	width:100%;
+	height:500px;
+	background-color:crimson;
+}
+.admin .admin-fc 
+{
+	display:flex;
+}
+.admin .admin-fc .demo
+{
+	margin-top:300px;
+	margin-left:600px;
+	text-align:center;
+	width:40%;
+	height:100px;
+	background-color:plum;
+}
+.image 
+{
+	width:100%;
+	background-color:pink;
+	height:500px;
+}
+.image .image-fc 
+{
+	display:flex;
+	width:60%;
+}
+.image .image-fc .maps
+{
+	text-align:center;
+	width:100%;
+	height:500px;
+	background-color:red;
+}
+.image .image-fc .search
+{
+	text-align:center;
+	width:20%;
+	height:500px;
+}
+.faq
+{
+	text-align:center;
+	background-color:pink;
+	width:100%;
+	height:500px;
+}
+.faq .fqaq-fc 
+{
+	display:flex;
+	flex-direction:column;
+}
+.faq .faq-fc .boxa
+{
+	margin-top:60px;
+	width:80%;
+	height:50px;
+	background-color:green;
+}
+	.faq .faq-fc .boxb
+{
+	margin-top:60px;
+	width:80%;
+	height:50px;
+	background-color:green;
+
+}
+.faq .faq-fc .boxc
+{
+	margin-top:60px;
+	width:80%;
+	height:50px;
+	background-color:green;
+}
+.contact
+	{
+		width:100%;
+		height:500px;
+		background-color:yellow;
+	}
+	.contact .contact-fc 
+	{
+		display:flex;
+       justify-content:space-evenly;
+	}
+	.contact .contact-fc .boxa
+	{
+		text-align:center;
+		width:50%;
+		height:500px;
+		background-color:red;
+	}
+	.contact .contact-fc .boxb
+	{
+		text-align:center;
+		width:50%;
+		height:500px;
+		background-color:green;
+		flex-direction:row;
+	}
+	.contact .contact-fc .name
+	{
+		margin-top:100px;
+		width:50%;
+		height:80px;
+		background-color:yellow;
+	}
+	.contact .contact-fc .email
+	{
+		margin-top:40px;
+		margin-left:400px;
+		width:30%;
+		height:80px;
+		background-color:yellow;
+	}
+	.contact .contact-fc .message
+		{
+			width:50%;
+			height:49px;
+			background-color:yellow;
+		}
+		.contact .contact-fc .small
+		{
+			margin-left:130px;
+			margin-top:50px;
+			width:50%;
+			height:49px;
+			background-color:yellow;
+		}
+	.copyright
+	{
+		width:100%;
+		height:200px;
+		background-color:crimson;
+	}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.
+
+
+
+
+
+
+
+
+
+
